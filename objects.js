@@ -1,9 +1,11 @@
 var playlist = {}
 
 function updatePlaylist(obj, key, value) {
-  return Object.assign({}, obj, {[key]: value})
+  playlist = Object.assign({}, obj, {[key]: value})
+  return playlist
 }
 
 function removeFromPlaylist(obj, key) {
-  return delete obj.key
+  playlist = delete obj.key
+  return playlist
 }
