@@ -1,5 +1,5 @@
 var playlist = {
-  JamesBlunt : '1989'
+  'James Blunt': '1989'
 }
 
 function updatePlaylist(obj, key, value) {
