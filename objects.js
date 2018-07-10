@@ -1,4 +1,4 @@
-var playlist = {}
+var playlist = {jet: 'hives'}
 
 function updatePlaylist(obj, key, value) {
   obj[key] = value
