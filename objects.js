@@ -1,5 +1,4 @@
 var playlist = {
-  [key] : 'value'
 }
 
 function updatePlaylist(obj, key, value) {
